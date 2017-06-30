@@ -1,0 +1,106 @@
+.box1 {
+  border: solid 2px rgb(75, 153, 31);
+  margin: auto;
+  width: 70%;
+  height: 500px;
+  border-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.donateprogress {
+  background-color: rgb(75, 153, 31);
+  border-top-right-radius: 12px;
+  border-top-right-radius: 12px;
+  text-align: center;
+  color: white;
+}
+
+.progressbar {
+  margin: auto;
+  border: solid 2px black;
+}
+
+.steps {
+  border: solid 1px red;
+  display: inline-block;
+  width: 30%;
+}
+
+.circles {
+  text-align: center;
+  display: inline-block;
+  background-color: white;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  box-shadow: inset 0px 2px 8px #2a4d16;
+  font-size: 1.5em;
+  color: rgb(75, 153, 31);
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+}
+
+.clearfix::after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+
+
+
+
+
+
+
+
+
+
+#DonationBox_Container {
+  display: flex;
+  align-items: center;
+}
+
+#DonationBox_Box{
+  align-items: center;
+  margin: auto;
+  margin-top: -50px;
+  border: 3.79px solid;
+  border-color: rgb(75, 153, 31);
+  border-radius: 12px;
+  width: 1007px;
+  height: auto;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 30px;
+}
+
+#DonationBox_Progress{
+  background-color: rgb(75, 153, 31);
+  text-align: center;
+  color: white;
+}
+
+#DonationBox_ProgressBar{
+  border: 2px solid black;
+  height: 100px;
+}
+
+#DonationBox_ProgressBar li{
+  float: left;
+  background-color: white;
+  color: rgb(75, 153, 31);
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  box-shadow: inset 0px 2px 8px #2a4d16;
+}
+
+#DonationBox_Form{
+background-color: white;
+color: black;
+margin: 0;
+padding: 0;
+border-bottom-right-radius: 12px;
+border-bottom-left-radius: 12px;
+}
